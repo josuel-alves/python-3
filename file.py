@@ -1,14 +1,15 @@
 # Start
 nameCliente = 'Enter your name:'
-print('Be welcome {}'.format(nameCliente))
+print('Be welcome {}!'.format(nameCliente))
 
 # Itens
-itemOne = 'Item 01'
-itemTwo = 'Item 02'
-itemTree = 'Item 03'
+term = 'Item'
+itemOne = '01'
+itemTwo = '02'
+itemTree = '03'
 
 print('Itens')
-print(itemOne, itemTwo, itemTree)
+print(term, ' ', itemOne)
 
 # Select Itens
 select = input('Select your item')
