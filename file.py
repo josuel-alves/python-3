@@ -13,3 +13,4 @@ print(term, ' {:*^5}, {:*^5} or {:*^5}'.format(itemOne, itemTwo, itemTree))
 
 # Select Itens
 select = input('Select your item')
+select = input('Select term')
