@@ -7,6 +7,7 @@ term = 'Item'
 itemOne = int(1)
 itemTwo = int(2)
 itemTree = int(3)
+itemFour = ''
 
 print(term, ' {:*^5}, {:*^5} or {:*^5}'.format(itemOne, itemTwo, itemTree))
 # Item **1**, **2** or **3**
