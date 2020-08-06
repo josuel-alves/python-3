@@ -15,3 +15,15 @@ print(term, ' {:*^5}, {:*^5} or {:*^5}'.format(itemOne, itemTwo, itemTree))
 # Select Itens
 select = input('Select your item')
 select = input('Select term')
+
+listItens = list()
+listItens.append('item list 01')
+
+listItens2 = list()
+listItens2.append(listItens[:])
+
+def printItens(* dados)
+    x = 0
+    for num in dados
+        x += num
+    print('Itens {x} values')
