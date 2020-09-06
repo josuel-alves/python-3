@@ -1,3 +1,13 @@
+import calendar
+
+yy = 2020
+mm = 11
+print(calendar.month(yy, mm))
+
+# ASCII
+c = 'p'
+print("The ASCII value '" + c + "' is", ord(c))
+
 # Start
 nameCliente = 'Enter your name:'
 print('Be welcome {:=^50}!'.format(nameCliente))
